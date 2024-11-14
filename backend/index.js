@@ -10,7 +10,7 @@ dotenv.config()
 //////connection of DB/////////
 DBConnection()
 
-const PORT = process.env.PORT 
+const PORT = process.env.PORT || 8000;
 
 
 //////middleware/////////
